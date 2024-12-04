@@ -18,7 +18,7 @@ public class Sort
 	 */
 	private static <T> IndexedUnsortedList<T> newList() 
 	{
-		return new WrappedDLL<T>(); //TODO: replace with your IUDoubleLinkedList for extra-credit
+		return new IUDoubleLinkedList<T>(); //TODO: replace with your IUDoubleLinkedList for extra-credit
 	}
 	
 	/**

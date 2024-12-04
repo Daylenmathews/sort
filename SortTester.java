@@ -5,7 +5,7 @@ import java.util.Random;
 
 /**
  * Test Sort class using WrappedDLL class.
- * @author CS221
+ * @author CS221, Daylen Mathews
  */
 public class SortTester {
 	// initialized in constructor
@@ -89,7 +89,7 @@ public class SortTester {
 	 * @return [ ]
 	 */
 	private static IndexedUnsortedList<Integer> newList() {	//TODO: specify the underlying list class, here
-		return new WrappedDLL<Integer>();
+		return new IUDoubleLinkedList<Integer>();
 	}
 	
 	/** @return [A] */
